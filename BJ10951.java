@@ -7,14 +7,10 @@ public static void main(String [] args) {
 	
 	Scanner sc=new Scanner(System.in);
 	
-	a=sc.nextInt();
-	b=sc.nextInt();
-	
-	while (sc.hasNext()) {
-	
-		System.out.println(a+b);
+	while (sc.hasNextInt()) {	
 		a=sc.nextInt();
 	    b=sc.nextInt();
+		System.out.println(a+b);
   }
 }
 }
